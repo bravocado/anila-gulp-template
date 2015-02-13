@@ -24,8 +24,8 @@ module.exports = {
     dest: dest + "/images"
   },
   templates: {
-    src: [src + "/views/pages/*.jade"],
-    watchSrc: [src + "/views/pages/*.jade", src + "/views/layouts/*.jade", src + "/views/organisms/*.jade", src + "/views/data/*.json"],
+    src: [src + "/views/*.jade"],
+    watchSrc: [src + "/views/*.jade", src + "/views/layouts/*.jade", src + "/views/includes/*.jade", src + "/views/data/*.json"],
     dataSrc: '../../build/views/data/',
     dest: dest
   },
